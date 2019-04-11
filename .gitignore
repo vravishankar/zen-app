@@ -1,4 +1,4 @@
 .vscode/
 .DS_STORE
-logs/
+/logs
 /node_modules
