@@ -1,0 +1,28 @@
+{
+    "settings" : {
+        "port": "5000"
+    },
+    "db": {
+        "url":"postgres://zen:zen@localhost:5432/zen",
+        "database": "zen",
+        "host": "localhost",
+        "port":5432,
+        "username": "zen",
+        "password": "zen",
+        "logging": true,
+        "pool-max": 20,
+        "pool-min": 0,
+        "pool-idle": 10000,
+        "pool-acquire": 30000
+    },
+    "keys": {
+        "jwt_secret": "123456"
+    },
+    "logging": {
+        "level": {
+            "console": "info",
+            "file": "debug"
+        },
+        "dirname": "logs"
+    }
+}

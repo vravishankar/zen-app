@@ -1,0 +1,16 @@
+{
+    "settings": {
+        "port": "HOST_ZENAPP_PORT"
+    },
+    "db": {
+        "url": "HOST_ZENAPP_DB_URL",
+        "database": "HOST_ZENAPP_DB_NAME",
+        "host": "HOST_ZENAPP_DB_HOSTNAME",
+        "port":"HOST_ZENAPP_DB_PORT",
+        "username": "HOST_ZENAPP_DB_USERNAME",
+        "password": "HOST_ZENAPP_DB_PASSWORD"
+    },
+    "keys": {
+        "jwt_secret": "HOST_ZENAPP_SECRET"
+    }
+}
